@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/anhld/BBB_Kernel_Source/linux-5.10/arch/arm/include/asm",
+                "/home/anhld/BBB_Kernel_Source/linux-5.10/arch/arm/include/uapi",
+                "/home/anhld/BBB_Kernel_Source/linux-5.10/arch/arm/include/generated",
+                "/home/anhld/BBB_Kernel_Source/linux-5.10/include/acpi",
+                "/home/anhld/BBB_Kernel_Source/linux-5.10/include/asm-generic",
+                "/home/anhld/BBB_Kernel_Source/linux-5.10/include/"
+            ],
+            "defines": [
+                "__GNUC__",
+                "__KERNEL__"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu89",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
